@@ -3,19 +3,28 @@ body {
     margin-right: 18%;
     width: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 #tim12 {
+    position: relative;
     text-align: center;
     display: inline-block;
-    height: 37vh;
+    height: 31vh;
     width: 100vh;
 }
 
-.image {
-    margin-left: auto;
-    margin-right: auto;
-    height: 36vh;
+#image1 {
+    position: absolute;
+    left: 0%;
+    height: 31vh;
+    width: 49vh;
+}
+
+#image2 {
+    position: absolute;
+    right: 0%;
+    height: 31vh;
     width: 49vh;
 }
 
@@ -53,8 +62,52 @@ body {
 }
 
 .datatrasparente {
-    color: rgba(78, 78, 80, 0.6);
+    color: rgba(78, 78, 80, 0.70);
     font-size: small;
     font-weight: bold;
 
+}
+
+.blue {
+    font-weight: bold;
+    color: rgba(0, 65, 255, 0.65);
+}
+
+#dfoto {
+    font-weight: 500;
+    font-size: small;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+table tr td {
+    border: 1px solid black;
+
+}
+
+thead {
+    background-color: rgba(0, 65, 255, 0.65);
+}
+
+.celeste {
+    background-color: rgba(78, 120, 248, 0.65);
+}
+
+#fotofooter1 {
+    background-image: url(../img/monitor.jpg);
+    color: aliceblue;
+    height: 20vh;
+    width: 20vh;
+    margin-top: 5px;
+
+}
+
+#fotofooter2 {
+    background-image: url(../img/graph.jpg);
+    color: aliceblue;
+    height: 20vh;
+    width: 20vh;
+    margin-top: 5px;
 }
